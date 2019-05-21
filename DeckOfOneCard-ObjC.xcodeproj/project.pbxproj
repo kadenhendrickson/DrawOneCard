@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC180A32294980100557383 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC180A22294980100557383 /* AppDelegate.m */; };
+		DCC180A92294980100557383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC180A72294980100557383 /* Main.storyboard */; };
+		DCC180AB2294980100557383 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC180AA2294980100557383 /* Assets.xcassets */; };
+		DCC180AE2294980100557383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC180AC2294980100557383 /* LaunchScreen.storyboard */; };
+		DCC180B12294980100557383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC180B02294980100557383 /* main.m */; };
+		DCC180BA2294983F00557383 /* KHECard.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC180B92294983F00557383 /* KHECard.m */; };
+		DCC180BE22949A9100557383 /* KHECardController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC180BD22949A9100557383 /* KHECardController.m */; };
+		DCC180C22294A54A00557383 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC180C12294A54A00557383 /* CardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCC1809E2294980100557383 /* DeckOfOneCard-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOneCard-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC180A12294980100557383 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC180A22294980100557383 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC180A82294980100557383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC180AA2294980100557383 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC180AD2294980100557383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC180AF2294980100557383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC180B02294980100557383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC180B82294983F00557383 /* KHECard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHECard.h; sourceTree = "<group>"; };
+		DCC180B92294983F00557383 /* KHECard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHECard.m; sourceTree = "<group>"; };
+		DCC180BC22949A9100557383 /* KHECardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHECardController.h; sourceTree = "<group>"; };
+		DCC180BD22949A9100557383 /* KHECardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHECardController.m; sourceTree = "<group>"; };
+		DCC180C02294A54A00557383 /* DeckOfOneCard-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneCard-ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCC180C12294A54A00557383 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC1809B2294980100557383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC180952294980100557383 = {
+			isa = PBXGroup;
+			children = (
+				DCC180A02294980100557383 /* DeckOfOneCard-ObjC */,
+				DCC1809F2294980100557383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC1809F2294980100557383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1809E2294980100557383 /* DeckOfOneCard-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC180A02294980100557383 /* DeckOfOneCard-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180B72294981900557383 /* Resources */,
+				DCC180A72294980100557383 /* Main.storyboard */,
+				DCC180BB2294984700557383 /* Model */,
+				DCC180BF22949A9400557383 /* Controllers */,
+			);
+			path = "DeckOfOneCard-ObjC";
+			sourceTree = "<group>";
+		};
+		DCC180B72294981900557383 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180A12294980100557383 /* AppDelegate.h */,
+				DCC180A22294980100557383 /* AppDelegate.m */,
+				DCC180AA2294980100557383 /* Assets.xcassets */,
+				DCC180AC2294980100557383 /* LaunchScreen.storyboard */,
+				DCC180AF2294980100557383 /* Info.plist */,
+				DCC180B02294980100557383 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCC180BB2294984700557383 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180B82294983F00557383 /* KHECard.h */,
+				DCC180B92294983F00557383 /* KHECard.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCC180BF22949A9400557383 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180C42294A55700557383 /* ModelControllers */,
+				DCC180C32294A54F00557383 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DCC180C32294A54F00557383 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180C12294A54A00557383 /* CardViewController.swift */,
+				DCC180C02294A54A00557383 /* DeckOfOneCard-ObjC-Bridging-Header.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCC180C42294A55700557383 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC180BC22949A9100557383 /* KHECardController.h */,
+				DCC180BD22949A9100557383 /* KHECardController.m */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC1809D2294980100557383 /* DeckOfOneCard-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC180B42294980100557383 /* Build configuration list for PBXNativeTarget "DeckOfOneCard-ObjC" */;
+			buildPhases = (
+				DCC1809A2294980100557383 /* Sources */,
+				DCC1809B2294980100557383 /* Frameworks */,
+				DCC1809C2294980100557383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DeckOfOneCard-ObjC";
+			productName = "DeckOfOneCard-ObjC";
+			productReference = DCC1809E2294980100557383 /* DeckOfOneCard-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC180962294980100557383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KHE;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					DCC1809D2294980100557383 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = DCC180992294980100557383 /* Build configuration list for PBXProject "DeckOfOneCard-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC180952294980100557383;
+			productRefGroup = DCC1809F2294980100557383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC1809D2294980100557383 /* DeckOfOneCard-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC1809C2294980100557383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC180AE2294980100557383 /* LaunchScreen.storyboard in Resources */,
+				DCC180AB2294980100557383 /* Assets.xcassets in Resources */,
+				DCC180A92294980100557383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC1809A2294980100557383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC180BE22949A9100557383 /* KHECardController.m in Sources */,
+				DCC180BA2294983F00557383 /* KHECard.m in Sources */,
+				DCC180B12294980100557383 /* main.m in Sources */,
+				DCC180C22294A54A00557383 /* CardViewController.swift in Sources */,
+				DCC180A32294980100557383 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCC180A72294980100557383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC180A82294980100557383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC180AC2294980100557383 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC180AD2294980100557383 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC180B22294980100557383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCC180B32294980100557383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC180B52294980100557383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard-ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KadenDevMountain.DeckOfOneCard-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-ObjC/Controllers/ViewControllers/DeckOfOneCard-ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC180B62294980100557383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneCard-ObjC/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KadenDevMountain.DeckOfOneCard-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneCard-ObjC/Controllers/ViewControllers/DeckOfOneCard-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC180992294980100557383 /* Build configuration list for PBXProject "DeckOfOneCard-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC180B22294980100557383 /* Debug */,
+				DCC180B32294980100557383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC180B42294980100557383 /* Build configuration list for PBXNativeTarget "DeckOfOneCard-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC180B52294980100557383 /* Debug */,
+				DCC180B62294980100557383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC180962294980100557383 /* Project object */;
+}
